@@ -31,7 +31,7 @@ const KeyboardClipboard = () => {
         onChange={(e) => setInputValue(e.target.value)}
         onKeyDown={handleKeyDown}
       />
-        <p onCopy={() => alert('Dikkat Kopyalandi')} className="text-start m-4">
+      <p onCopy={() => alert('Dikkat Kopyalandi')} className="text-start m-4">
         {inputValue}
       </p>
 
